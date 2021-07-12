@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todoList.css">
+</head>
+<body>
+<div class="maindiv">
+
+    <div class="header">
+        TO-DO LIST
+    </div>
+
+
+    <div class="sec1">
+        <input class="ip" type="text" placeholder="enter the to-do task" autofocus>
+        <select class="sel">
+            <option disabled hidden selected >select priority</option>
+            <option >highPriority</option>
+            <option >midPriority</option>
+            <option >lowPriority</option>
+        </select>
+        <button class="btn">save</button>
+    </div>
+
+    
+    <div class="sec2">
+        <p class="heading1">Tasks To Complete</p>
+        <ul class="disp">
+            
+        </ul>
+    </div>
+
+
+    
+    <div class="sec3">
+        <p class="heading2">Search Tasks According To The Priority</p>
+        <button class="hPBtn">High</button>
+        <button class="mPBtn">Medium</button>
+        <button class="lPBtn">Low</button>
+        <ul class="pWiseDisp">
+            
+        </ul>
+    </div>
+</div>
+<script src="todoList.js"></script>
+</body>
+</html>

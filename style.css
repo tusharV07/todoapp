@@ -1,0 +1,306 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    
+}
+.maindiv{
+    background-color: #0c883b;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.header{
+    margin:1rem 0;
+    font-family: 'Montserrat',sans-serif;
+    font-size:4rem;
+    font-weight:1000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .5rem white;
+    letter-spacing: .2rem;
+}
+
+.heading1{
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:#033517;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: .3rem .3rem .4rem rgb(44, 44, 44);
+    top:-3rem;
+    cursor: default;
+}
+
+.heading2{
+    position: absolute;
+    font-size: 900%;
+    /* font-size: minmax(900%,2.5rem);  */
+    font-weight: 900;
+    color:#033517;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: .3rem .3rem .4rem rgb(44, 44, 44);
+    top:-3rem
+}
+
+.sec1{
+    margin:3rem 1rem;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    background-color: #065f28;
+    border-radius: .5rem;
+    min-height: 25rem;
+    height: 40vh;
+    min-width: 38rem;
+    width: 50vw;
+    box-shadow: .7rem .7rem 1.5rem 0 black;
+    position: relative;
+}
+.sec2{
+    position: relative;
+    margin:4rem 1rem;
+    background-color: #065f28;
+    border-radius: .5rem;
+    height: 40vh;
+    min-height: 20rem;
+    min-width: 38rem;
+    width: 50vw;
+    box-shadow: .7rem .7rem 1.5rem 0 black;
+}
+.sec3{
+    position: relative;
+    margin:3rem 1rem;
+    background-color: #065f28;
+    border-radius: .5rem;
+    height: 40vh;
+    min-height: 20rem;
+    min-width: 38rem;
+    width: 50vw;
+    box-shadow: .7rem .7rem 1.5rem 0 black;
+}
+
+.sec1 input{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: .1rem solid #9DC88D;
+    margin: 1rem .5rem;
+    margin-top: 2rem;
+    padding: .2rem .2rem;
+    height: 2.5rem;
+    width: 30rem;
+    font-size: medium;
+    font-weight: lighter;
+    color: whitesmoke;
+    z-index: 2;
+}
+
+.sec1 select{
+    margin-top: 1rem;
+    background:#9DC88D;
+    padding: .2rem;
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: .3rem;
+}
+
+.sel option{
+    font-size: 2rem;
+    background: #ceddc8;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.sec1 button{
+    position: absolute;
+    bottom: 40%;
+    height: 3rem;
+    width: 5rem;
+    padding: .1rem,.1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border:none ;
+    outline: none;
+    border-radius: .3rem;
+    background: #8ccaf3;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.sel:hover + button{
+    bottom: 3rem;
+}
+
+button:hover{
+    background: #50768f;
+}
+
+.disp{
+    margin-top: .2rem;
+    padding: 1rem 2rem;
+    height: 39.2vh;
+    min-width: 37rem;
+    width: 49.4vw;
+    min-height: 19rem;
+    max-height: 39.2vh;
+    overflow-y: scroll;
+}
+
+.pWiseDisp{
+    padding: 1rem 2rem;
+    height: 31.8vh;
+    min-height: 15rem;
+    min-width: 37rem;
+    width: 49.4vw;
+    max-height: 31.8vh;
+    overflow-y: scroll;
+}
+
+
+li{
+    padding-left: 1rem;
+    padding-top: .25rem;
+    position: relative;
+    list-style: none;
+    margin: .15rem;
+    height: 3.5rem;
+    border-radius: .3rem;
+    font-size: 2rem;
+    letter-spacing: .05rem;
+    overflow: hidden;
+    text-align: left;
+    cursor: default;
+}
+
+.highPriority{
+    background:rgb(255, 14, 14) ;
+    transition: background 0.3s ease-out;
+}
+
+.midPriority{
+    background:#FFBF00 ;
+    transition: background 0.3s ease-out;
+}
+
+.lowPriority{
+    background:rgb(8, 243, 8) ;
+    transition: background 0.3s ease-out;
+}
+
+.highPriority:hover{
+    background:rgb(150, 3, 3) ;
+}
+
+.midPriority:hover{
+    background: #967207;
+}
+
+.lowPriority:hover{
+    background: rgb(1, 71, 1);
+}
+
+.del{
+    background: rgb(29, 28, 28);
+    outline: none;
+    border:none;
+    height:2.5rem ;
+    width: 5rem;
+    padding: .1rem .2rem;
+    border-radius: .3rem;
+    font-size: medium;
+    color: ivory;
+    transition: background 0.3s ease-out;
+    cursor: pointer;
+}
+
+.del:hover{
+    background: rgb(80, 78, 78);
+}
+
+li span{
+    position: absolute;
+    display: inline-block;
+    top: .4rem;
+    right: -5rem;
+    transition: right 0.3s ease-in;
+}
+
+li:hover span{
+    right:1rem;
+}
+
+.hPBtn{
+    background: rgb(255, 14, 14);
+    outline: none;
+    border:none;
+    height:2.5rem ;
+    width: 5rem;
+    padding: .1rem .2rem;
+    border-radius: .3rem;
+    font-size: medium;
+    margin: 1rem;
+    transition: background 0.3s ease-out;
+    cursor: pointer;
+}
+
+.hPBtn:hover{
+    background: rgb(150, 3, 3);
+
+}
+
+.mPBtn{
+    background: #FFBF00 ;
+    outline: none;
+    border:none;
+    height:2.5rem ;
+    width: 7rem;
+    padding: .1rem .2rem;
+    border-radius: .3rem;
+    font-size: medium;
+    margin: 1rem;
+    transition: background 0.3s ease-out;
+    cursor: pointer;
+}
+
+.mPBtn:hover{
+    background: #967207;
+
+}
+
+.lPBtn{
+    background: rgb(8, 243, 8);
+    outline: none;
+    border:none;
+    height:2.5rem ;
+    width: 5rem;
+    padding: .1rem .2rem;
+    border-radius: .3rem;
+    font-size: medium;
+    margin: 1rem;
+    transition: background 0.3s ease-out;
+    cursor: pointer;
+}
+
+.lPBtn:hover{
+    background: rgb(1, 71, 1);
+
+}
+
+button.saved{
+    background: #50768f;
+    height: 4rem;
+    width: 6rem;
+    bottom: 35%;
+    box-shadow: .7rem .7rem 1rem 0 black;
+}
