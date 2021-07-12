@@ -25,6 +25,13 @@
     letter-spacing: .2rem;
 }
 
+.hname{
+    font-family: 'Montserrat',sans-serif;
+    font-size:2rem;
+    font-weight:100;
+    color: aliceblue;
+}
+
 .heading1{
     position: absolute;
     font-size: 2.5rem;
