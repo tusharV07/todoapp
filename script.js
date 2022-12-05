@@ -17,7 +17,7 @@ var cityName = document.querySelector('.cityName');
 var desc = document.querySelector('.desc');
 
 buttonB.addEventListener('click',()=>{
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputName.value+'&appid=170923d2b84739964608df35317d3311')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputName.value+'&appid="enter_token_of_api"')
 .then(response=>response.json()).then(data=>{
     const Cnameval= data['name'];
     const tempval= data['main']['temp'];
